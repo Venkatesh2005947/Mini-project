@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+
+}
+
+
+
+.ancizar-serif-custom {
+  font-family: "Ancizar Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.container {
+  background: rgba(255, 255, 255, 0);
+  padding: 30px;
+  /* border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1); */
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+
+}
+input::placeholder {
+  color: #FDF4DC;
+}
+input:focus {
+  outline: none;
+}
+button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background: transparent; 
+  border: none;
+  color: #FDF4DC;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+ 
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
